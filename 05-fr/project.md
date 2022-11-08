@@ -51,12 +51,12 @@ Osoba chcąca zakupić produkt na aukcji.
 
 [Sprzedający](#ac1):
 * [UC1](#uc1): Wystawienie produktu na aukcję
-* [UC5](#uc5): Przekazuje produkt Kupującemu
+* [UC5](#uc5): Przekazanie produktu Kupującemu
 
 [Kupujący](#ac2)
-* [UC2](#uc2): Oferuje kwotę za produkt
-* [UC3](#uc3): Wygrywa aukcję
-* [UC4](#uc4): Przekazuje należność Sprzedającemu
+* [UC2](#uc2): Oferta kwoty za produkt
+* [UC3](#uc3): Wygrana aukcji
+* [UC4](#uc4): Przekazanie należności Sprzedającemu
 
 ---
 <a id="uc1"></a>
@@ -153,9 +153,9 @@ Aukcję wygrywa ten z [Kupujący](#ac2)ch, który w momencie jej zakończenia (u
 | Przypadek użycia                                  | Aukcja | Produkt | Oferta |
 | ------------------------------------------------- | ------ | ------- | ------ |
 | UC1: Wystawienia produktu na aukcję               |        |    C    |        |
-| UC2: Oferta kwoty                                 |        |         |   U    |
-| UC3: Wygrana aukcji                               |    D   |         |   R    |
-| UC4: Przekazanie należności                       |        |         |   D    |                          
+| UC2: Oferta kwoty                                 |        |         |    U   |
+| UC3: Wygrana aukcji                               |    D   |         |    R   |
+| UC4: Przekazanie należności                       |        |         |    D   |                          
 | UC5: Przekazanie produktu                         |        |    D    |        |
 
 
